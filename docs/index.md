@@ -743,7 +743,7 @@ hr {
 
 <script>
 function myFunction1() {
- window.open("https://87lwug.sn.files.1drv.com/y4mRLgaYs05hPu05oJd9TsdTMnQbUM3Z5GYrxhh8px80h8GdUIBxnGOQwAgR4byu0r0WHsRqttBx0afEWuLnlYpro33gbnSgoqS9qQueaovBEYTKGZHPYomb1-cFY6Cw1NzI_i5HoGtRbI4l4UqNaI0asDrc2fejWtPhGwkKC5csQIB0aVPOKEVv7qhoTlMykBvb7-UraWOJTvnhonng0O83A?cropmode=none?raw=true","wave height", "height=500px, width=500px");
+ window.open("https://87lwug.sn.files.1drv.com/y4pfllDDPpZi0B-fTLHHdYMuc3BdJ05f3a1092FzCDmeaaSpGtbAnNuF8X776iUw7iXu2pRyns7ij6WxKZjxMldGkrPFDHqoKZcuO7sxtn_i3VJSOOhwThbXC4AP-XTqH2mjvwFPIRXDU3NmreUHfTVL96MbuV04s3RPX5GKNOE7J_jY0yL22LzW9T6mIin5_ogWblN02VKxPuraCx3cLFvcOd0o3UWalImC9LmafzSj3k/HSSouthSmyrna.jpg?raw=true","wave height", "height=500px, width=500px");
   window.open("https://sn3301files.storage.live.com/y4pSvWrclIH1a4rSauPiYMy56E61Pcrarel--YVPL9wS-H8BlQzhMFbVmz2YGnaiP_xL6k4Sc9wxUIdyD-O4KBA0V-stW6NdklF-eY7grRa7MQPNs-aQRIs5twqs9HpmohM6KKnwm6os4GZ28bhp6noORgXsfkaF5hpuxK2xVkqzQEfcLuOx3bqgS8o_g3A7b-PbKyHSuXQh04AnhxH6GK1RGC1dgPyYB7RIN2qzpgvDMU/WLSouthSmyrna.jpg?psid=1&width=416&height=133?raw=true","water level", "height=500px, width=500px");  
 }
 
