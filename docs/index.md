@@ -278,7 +278,7 @@ hr {
 
 <br>
 <div class="row">
-    <img src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="https://xbbava.sn.files.1drv.com/y4mu7OJB1v9n7oPHt9GpVVkZ8ub1ZfxHUeGqh03zb00ip469VMXeogQT7fQM5pcyoOmxfegZAXWgVYaOgrEuf5AChz7jWM5EhMH7WD62qj-6DPETURBC09JXC6v7tYsHqVqxguIzloTFez9XmyM-g0uGFeNZX0IkMX-GgEB3gs4re5l3afRWZ69b1U-Va6cuHALtNlFBIrEXyA9Z2K2v6ZQz?raw=true" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 </div>
 
 <div id="myModal" class="modal">
@@ -287,22 +287,22 @@ hr {
 
     <div class="mySlides">
       <div class="numbertext">1 / 4</div>
-      <img src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%">
+      <img src="https://xbbava.sn.files.1drv.com/y4mu7OJB1v9n7oPHt9GpVVkZ8ub1ZfxHUeGqh03zb00ip469VMXeogQT7fQM5pcyoOmxfegZAXWgVYaOgrEuf5AChz7jWM5EhMH7WD62qj-6DPETURBC09JXC6v7tYsHqVqxguIzloTFez9XmyM-g0uGFeNZX0IkMX-GgEB3gs4re5l3afRWZ69b1U-Va6cuHALtNlFBIrEXyA9Z2K2v6ZQz?raw=true" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="https://x4wo3q.sn.files.1drv.com/y4pXp9IACoUVlo8nqEsiiY5Qm3a90Y1JHk4NkIK0h0TQAHLtgHSao4ZmgHaKgs4XGDqr-69JPSHnPqJUU1MDWzmKoO_sDGk4WPS9LT5gEmIASVEhWOtsdkeQb_GxVUZwMLq9u-TpnAfueK5ht0kQ6ydyGLbDRY43L3pvgayYVK-YQUcKi9nh9JX5I-GU78MRNE_zJ-JtHKQLIQEXKEWNI-_Jnp0llvb-Hyx92IziroZAFw/full_hs_dir.gif?download&psid=1?raw=true" style="width:100%">
+      <img src="https://jicsiw.sn.files.1drv.com/y4mzHMkeESbUwmJ-QpYU1h2NZOVuQW5eHGeH_sALm7Z0oXcGDRycrUuRKQ5k4hNTXflaItmTmKn17cg7TR57riz30cjo2IFpfAOQe960WJZLnhyqWOnb08FTZHOs9qtNOJBD6O3Slc-dnpSQT2w9zHFqw9memdNu2w4YngDnU4XUgL9Eu3MPcbSvLr43b0naKvysa5d1YKFIJ_mmXtNb4aXiQ?raw=true" style="width:100%">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="https://x4wo3q.sn.files.1drv.com/y4piqvkizS8-LeLxin3S68DTw-3aaxVW3TTdl9l876M8IkMQBz2E-71lRaSVqkhIj3cb2lEqLU8qHQEwJ-a7eT4nixOhJPrQ_S07YBBpCukq6ZVusnppMQfwYdWGBqyNwHxMxDk2OkbDcNcAE9O5Q-6Zss2byacw0TjYVKWYwb-fFKBoHrKqVEXnkqCz9tmZFLkDbVINS2qJ-mlI2UEfbYTjR6xyGFK88vLnEzcnSvSpKA/irl_elev_wind.gif?download&psid=1?raw=true" style="width:100%">
+      <img src="https://vclrja.sn.files.1drv.com/y4mCGTl69TfsjAMHBoSkF4KW4T20i-hvJe5_nga3ImCxhzvdzB8qNDsfU4puJJItW9sxPG5kLukvaqfvyU97Rn-lKg7Ma8o6wEwiANySEzqYqa3PokBFU5ybSoRy_VgX0jSCH3NSVgBmmpQ5AUUbHCvQbfVyKBdEnwOUo7CsOsVqBB3WDVkd59qi2EfTuZ4RB1d8ccis3kIQ68GUFqqLbb3mA?raw=true" style="width:100%">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="https://x4wo3q.sn.files.1drv.com/y4pLHa4YQLgZ0SJAu-UF-LnqaLaxMpkpQS4YxbvJEGDlOtPfC_B9gg0GUV-fPwWyaFHQzcnij82cIwmUxWYSrsDxGrbBQ7j8KSqk5i7xzwCLvLvHtPBfHgZbxi9Pqy92CKaQBM3AoDhAGB_X7VSYpifiOV3eFCBDDItwi9hjnrVlTxu0eB8cdpYj_4VdGNh0hajSHkHXKLnqf10TA2WcUweXiZEQELoYXyQhkUXqgCf4Zc/irl_hs_dir.gif?download&psid=1?raw=true" style="width:100%">
+      <img src="https://wd4adg.sn.files.1drv.com/y4mY8hAC7ebc8QEuD7wl4cUmWo_F3e36aHliaHb61O96sBpjkzbJ1qdvH5HlwclsbqhHG7yM_d6H9TB8MRzD-i86Q4CbnHAHOl1eNhfw-GoanQ47j10fkyApZE_pwfn2VY2W8kq3ar4CQpMJnbhVhh4nXBD7VLf3yBnOTRGfgfMvQMona61Zf2vXN07BmVzAC-V__bt6L9SQJM2SjBKn-GtWw?raw=true" style="width:100%">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -314,16 +314,16 @@ hr {
 
 
     <div class="column">
-      <img class="demo cursor" src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
+      <img class="demo cursor" src="https://xbbava.sn.files.1drv.com/y4mu7OJB1v9n7oPHt9GpVVkZ8ub1ZfxHUeGqh03zb00ip469VMXeogQT7fQM5pcyoOmxfegZAXWgVYaOgrEuf5AChz7jWM5EhMH7WD62qj-6DPETURBC09JXC6v7tYsHqVqxguIzloTFez9XmyM-g0uGFeNZX0IkMX-GgEB3gs4re5l3afRWZ69b1U-Va6cuHALtNlFBIrEXyA9Z2K2v6ZQz?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4pXp9IACoUVlo8nqEsiiY5Qm3a90Y1JHk4NkIK0h0TQAHLtgHSao4ZmgHaKgs4XGDqr-69JPSHnPqJUU1MDWzmKoO_sDGk4WPS9LT5gEmIASVEhWOtsdkeQb_GxVUZwMLq9u-TpnAfueK5ht0kQ6ydyGLbDRY43L3pvgayYVK-YQUcKi9nh9JX5I-GU78MRNE_zJ-JtHKQLIQEXKEWNI-_Jnp0llvb-Hyx92IziroZAFw/full_hs_dir.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
+      <img class="demo cursor" src="https://jicsiw.sn.files.1drv.com/y4mzHMkeESbUwmJ-QpYU1h2NZOVuQW5eHGeH_sALm7Z0oXcGDRycrUuRKQ5k4hNTXflaItmTmKn17cg7TR57riz30cjo2IFpfAOQe960WJZLnhyqWOnb08FTZHOs9qtNOJBD6O3Slc-dnpSQT2w9zHFqw9memdNu2w4YngDnU4XUgL9Eu3MPcbSvLr43b0naKvysa5d1YKFIJ_mmXtNb4aXiQ?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
     </div>
     <div class="column">
       <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4piqvkizS8-LeLxin3S68DTw-3aaxVW3TTdl9l876M8IkMQBz2E-71lRaSVqkhIj3cb2lEqLU8qHQEwJ-a7eT4nixOhJPrQ_S07YBBpCukq6ZVusnppMQfwYdWGBqyNwHxMxDk2OkbDcNcAE9O5Q-6Zss2byacw0TjYVKWYwb-fFKBoHrKqVEXnkqCz9tmZFLkDbVINS2qJ-mlI2UEfbYTjR6xyGFK88vLnEzcnSvSpKA/irl_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(3)" alt="Water Level and Wind">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4pLHa4YQLgZ0SJAu-UF-LnqaLaxMpkpQS4YxbvJEGDlOtPfC_B9gg0GUV-fPwWyaFHQzcnij82cIwmUxWYSrsDxGrbBQ7j8KSqk5i7xzwCLvLvHtPBfHgZbxi9Pqy92CKaQBM3AoDhAGB_X7VSYpifiOV3eFCBDDItwi9hjnrVlTxu0eB8cdpYj_4VdGNh0hajSHkHXKLnqf10TA2WcUweXiZEQELoYXyQhkUXqgCf4Zc/irl_hs_dir.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(4)" alt="Wave Height and Direction">
+      <img class="demo cursor" src="https://wd4adg.sn.files.1drv.com/y4mY8hAC7ebc8QEuD7wl4cUmWo_F3e36aHliaHb61O96sBpjkzbJ1qdvH5HlwclsbqhHG7yM_d6H9TB8MRzD-i86Q4CbnHAHOl1eNhfw-GoanQ47j10fkyApZE_pwfn2VY2W8kq3ar4CQpMJnbhVhh4nXBD7VLf3yBnOTRGfgfMvQMona61Zf2vXN07BmVzAC-V__bt6L9SQJM2SjBKn-GtWw?raw=true" style="width:100%" onclick="currentSlide(4)" alt="Wave Height and Direction">
     </div>
   </div>
 </div>
