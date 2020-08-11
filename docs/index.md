@@ -744,27 +744,27 @@ hr {
 <script>
 function myFunction1() {
  window.open("https://87lwug.sn.files.1drv.com/y4mRLgaYs05hPu05oJd9TsdTMnQbUM3Z5GYrxhh8px80h8GdUIBxnGOQwAgR4byu0r0WHsRqttBx0afEWuLnlYpro33gbnSgoqS9qQueaovBEYTKGZHPYomb1-cFY6Cw1NzI_i5HoGtRbI4l4UqNaI0asDrc2fejWtPhGwkKC5csQIB0aVPOKEVv7qhoTlMykBvb7-UraWOJTvnhonng0O83A?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://sn3301files.storage.live.com/y4pSvWrclIH1a4rSauPiYMy56E61Pcrarel--YVPL9wS-H8BlQzhMFbVmz2YGnaiP_xL6k4Sc9wxUIdyD-O4KBA0V-stW6NdklF-eY7grRa7MQPNs-aQRIs5twqs9HpmohM6KKnwm6os4GZ28bhp6noORgXsfkaF5hpuxK2xVkqzQEfcLuOx3bqgS8o_g3A7b-PbKyHSuXQh04AnhxH6GK1RGC1dgPyYB7RIN2qzpgvDMU/WLSouthSmyrna.jpg?psid=1&width=416&height=133?raw=true","water level", "height=500px, width=500px");  
+  window.open("https://vck1ow.sn.files.1drv.com/y4mroyy2BvhAdlqB55TMBVn14_Sv1fPYyanawW9ok_u7UM3Ai9PD1tqyCS6GLFROJ3QFdIMur2mQaunrUChhkdbv8rO_u2tXDXPvVQUw1chvbOroh96RlqhbAg4uawszGmczuLoeROUu0fHqoGf4q4qW213yT4MJagu9FHq8GPicMUFo0tnOv4juzV2PZWmW2XJQkx5iVZtwurJKbaLDgDlmw?width=4400&height=1400&cropmode=none?raw=true","water level", "height=500px, width=500px");  
 }
 
 function myFunction2() {
-  window.open("https://sn3301files.storage.live.com/y4pnlrazM8n8oyNq_m6lKhMixii71-kp9lhN0GRnxowW_vUBmWkB2-PDWjxvfOWQ2l6b2xFjW_QtPH_yGlYrDC-wTgLjBaNiQN4rTowK-Cv4b1nz-J8-AzxxJWOhqaJOh4Bm1PJs5ZARqbzeZEQ-pRr8jCXA_xxhiNtO0hoysC0snnTP89NO_2dYM__ZWX6UKNS2bosHC9aHc8FIMAL5X18RxrgnhD9ng14Zhp6iWqh0cs/HSSouthNewSmyrna.jpg?psid=1&width=1421&height=452?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://sn3301files.storage.live.com/y4pa3HGQEAVSf6ABaGytgGZww4krk7Xp_fMtFPaBjBkFlArK1jQxVhK_aCO43pcSsg6TG7l9aoFnomQ1KJxS7ZxNrER5MLnVQsekXt33wUNUQeiCRcJob66gjyh7AYU21HORhGuQfG2XYTAWw4qz--FOQ7QV-RHvoK_RbYtkkKCTLHQOKV5_pAvYXj3qWYHmEaWiMfA0wVAxTF0n9mm80-tpchI6SLY_rTXVkQyUt3jPU0/WLSouthNewSmyrna.jpg?psid=1&width=1421&height=452?raw=true","water level", "height=500px, width=500px");
+  window.open("https://vcl5sg.sn.files.1drv.com/y4mRT8_nYb9Z2KXKO0cYZyWjDsu7-3YBHero6hDANv4pYDV6YamhtWehzxyr7uI__dtgVYu0N5NupVVqmbSFnQqEx-Us_rHgpJBCbbgytUGjyit_xSloUjJl322CiJvAQEzdloTq2QrsdzBfvX9aRy5LrFu164ZeWictZVjp9QW9uct3KQYkv5OO6eoRTSLnK1KB0NS6_6jToJC7tJgpsBvPA?width=4400&height=1400&cropmode=none?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://wd4txw.sn.files.1drv.com/y4mxowQOJ2EN1zN-nwgt2zSDp-mMHBPTuMXvv66WtztnBQpAgklZl9JUERH6J87H_xJhnlX-U369jLNoDZJP1FBEhq1cSYk1msKnrOO8QaXdZCiSukCNUyDoZLjt8o7hoaCHQAueTmyFCWzLmsLdq9kLTT6QxXqIUDh0ARZzYcMFH9z7_T7SqrgMjWqc1BpCV5PK0WTJ0Kno87t87dL_D457g?width=4400&height=1400&cropmode=none?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction3() {
-  window.open("https://sn3301files.storage.live.com/y4pCbilIKFjMm8ywsaM7IGTgizIP9IToYqNBVfmidxSo6d37aLmJU2Y7En6KT4d8KOEiJzXejHrL-gzjol793jhcH7-0h1rg5m-UJAuyxyF_-2XW7zS-7BRCJvT8GEqB8qeVfu_jwWiOWuEm8bP2-rF875Y3jP7Kbtz2mAxfWZXsj0h2NCAu38CtCfQh1-6ptb9RBphZp_gKKzTF1ue4sFsSZq8UjHo5QC949VVFW1pmBc/HSHauloverCanal.jpg?psid=1&width=1421&height=452?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://sn3301files.storage.live.com/y4pyVf6NjeX4eE4hdvlzsGDs5q6mFF3D2AyQhoB8ueuIueQEIq4xwWBASVY_m25z8tbVCGoqll9frOO-aZCJq4shLL0x0m6AnHfAtwvzzASI7dajAlcxLorq9ov0AVm28ATRxdnyGowFAZWMFD3pG2WGxGV8-5d13JRj3-vDBArnrvGoEHMbbvw0vVPtN259-Ni6VDZC3Hn12g_ejzir6vpqXc2BelZ5OsI907x5noyPag/WLHaulover.jpg?psid=1&width=416&height=133?raw=true","water level", "height=500px, width=500px");
+  window.open("https://vcmhdq.sn.files.1drv.com/y4m1ZBDne5WdoCNPP8znKUnkr6UHWgL9p1MaBkrppvaWpjvwrVBdvB7SbXHewnAA75v4lfSUkTzboWFTYa-Jn-fmjcmUl1z9La9HTI7ZaGWxV4LuGUdSW_QQ6jC8E2bBN_2-RBR-VvJGwm-I0RtkvTp3EN8WOaKWWzTdppEJh_2fujvwab55KbYB10Q_Bf-5Q_ewKM9WU16yQUb4wRQw5z4Ew?width=4400&height=1400&cropmode=none?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://wd68yq.sn.files.1drv.com/y4mS_40J3LQh44DKJUvabtD_qwIG1juk41rPL9zFgZAD6YOE00Vbblmnm5O2XRMnGQq81Ik-2Ft-v3OIAwMVN6nfL6wtg8Tw9Qf_oGFdc9QpRZDcRRjLJCOIFW1b4MTMwkmfL-0vsE8iyeV0SAU5eHDbNhyk_xDymiK0dsZbpHIcj_4UURMnNyevzTwQUbYN3LO_I4b5K3tukwKnJ-ufkZ6pA?width=4400&height=1400&cropmode=none?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction4() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSNorthIndianRiver.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLNorthIndianRiver.jpg?raw=true","water level", "height=500px, width=500px");
+  window.open("https://vck8gg.sn.files.1drv.com/y4m1Z7dEFGusH23t5K2GcAuGy-TH9xh2QMyBUx9CHav_EAqLHS5dQ4MAe7Xqzu1evhRe9thld5DqMQ1yDKC1f9kgubsxkWgnTt0KQ95ExQoowT6rNBrLsy6K3spFnwXnNsmL2EyTl4q7XJJTBj5pFz7GRL85pNXE0FC284azenQSZdKpgE935STAdlwAgAz6vwD7vdbO4Vl-WaWRXhTJoU3Kw?width=4400&height=1400&cropmode=none?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://kzx1gq.sn.files.1drv.com/y4mmep7wsDudPT-abLU2iT4Wb8DN9eNqaDwOG9PSPweZDXQKkykGvF9Hk9j24Wr4XCzvSx5Wd_El7Pws2crVYOM9jplKECrCPvktgHjTLaFW1wJq_0CJOGIlp_EssqKyzud2QK79Yjn36qm4Je5Tha77Ba6kXgZ1g5oKHjWw6mBrDl4udCPuyCoBn-VnRZezlmFydPH0qMzO2TPm2p_z28amw?width=4400&height=1400&cropmode=none?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction5() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSTitusville.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLTitusville.jpg?raw=true","water level", "height=500px, width=500px");
+  window.open("https://87li9w.sn.files.1drv.com/y4myE7owPoZc0A1g5wiqFfPTVungA9BHi3ha7G7o4df3GN6Lt3m4ig6mQOqikbnM_V3PoXTy8DG9UgdMCKfbIEAQYhifAIBjV_Fdt_Cqsxxc7LKnaFIo_yibDmCTMoC4eYAImDy391uW0q0br5evRyqeATFBjjk1M-pVZyxxxdTE4Kd0M7jfM5mNsTiEf9RDMgc-Oq8rLLk4DND0ZZz6Y8FCg?width=4400&height=1400&cropmode=none?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://87klxw.sn.files.1drv.com/y4ml0lpXbeuytgyX_-y94pz_ckI9Lzs0Uc7o2uiSishR9DxHoMIl9L4WnptMjol4YVOF3LpEDzrDZgXrkxNWWos4V8-c9t3RzZNJtB1BWECtknsGtpjlUIGgTrReiPzX0XVM6CV3XmW4k3sORkNztOxTd4rKefYCQdDqZpZ1-uYujz0DFldCOaNtNFTeikZEjGS4DhRrI107zNGz2Q_eCwshQ?width=4400&height=1400&cropmode=none?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction6() {
