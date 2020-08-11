@@ -1,1 +1,0 @@
-/home/ptaeb/FigGen/Latest_version/FigureGen.x
