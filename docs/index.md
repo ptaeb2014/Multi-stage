@@ -314,7 +314,7 @@ hr {
 
 
     <div class="column">
-      <img class="demo cursor" src="https://xbbava.sn.files.1drv.com/y4mu7OJB1v9n7oPHt9GpVVkZ8ub1ZfxHUeGqh03zb00ip469VMXeogQT7fQM5pcyoOmxfegZAXWgVYaOgrEuf5AChz7jWM5EhMH7WD62qj-6DPETURBC09JXC6v7tYsHqVqxguIzloTFez9XmyM-g0uGFeNZX0IkMX-GgEB3gs4re5l3afRWZ69b1U-Va6cuHALtNlFBIrEXyA9Z2K2v6ZQz?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
+      <img class="demo cursor" src="https://xbbava.sn.files.1drv.com/y4mu7OJB1v9n7oPHt9GpVVkZ8ub1ZfxHUeGqh03zb00ip469VMXeogQT7fQM5pcyoOmxfegZAXWgVYaOgrEuf5AChz7jWM5EhMH7WD62qj-6DPETURBC09JXC6v7tYsHqVqxguIzloTFez9XmyM-g0uGFeNZX0IkMX-GgEB3gs4re5l3afRWZ69b1U-Va6cuHALtNlFBIrEXyA9Z2K2v6ZQzA?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
     </div>
     <div class="column">
       <img class="demo cursor" src="https://jicsiw.sn.files.1drv.com/y4mzHMkeESbUwmJ-QpYU1h2NZOVuQW5eHGeH_sALm7Z0oXcGDRycrUuRKQ5k4hNTXflaItmTmKn17cg7TR57riz30cjo2IFpfAOQe960WJZLnhyqWOnb08FTZHOs9qtNOJBD6O3Slc-dnpSQT2w9zHFqw9memdNu2w4YngDnU4XUgL9Eu3MPcbSvLr43b0naKvysa5d1YKFIJ_mmXtNb4aXiQ?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
