@@ -1,0 +1,58 @@
+
+    Software package dependencies (Latest or recent version):
+
+    1- gcc and gfortran and dependencies (tide, bcGen, GEFS, FigureGen)
+    2- mpich and mpirun
+    3- netcdf(4)
+    4- FigureGen (time and date modified a bit) - compile with netcdf and mpich support
+    5- ImageMagic 
+    6- Gnuplot
+    7- ghostscript 
+    8- gmt-4.5.11
+
+    
+    ---------------------------------------------------------------------------------------
+    FORTRAN codes need to be compiled before the system is activated for the first time:
+
+    1- Tide generator      (/utility/tides/)
+    2- BC generator        (/utility/buildf19/)
+    3- GEFS fortran codes  (/GEFS/src/) -- GEFS codes should be compiled with the subroutines:
+       $ gfortran genOWI.F90 headr_fort222.F90 points_timesnap_size.F90 writer_WindPress.F90 -o genOWI.x
+    4- SREF fortran code   (SREF/src/)
+    And post processing codes in (/home4/ptaeb/multi.stage/postProc) ----------------------
+    5- hydro-stat.F90
+    6- latLong.pull.n3.f90 
+    7- netcdf2adcirc.f90
+    8- uvTOgeo_station.F90
+    9- uvTOgeo.F90
+    ----------------------------------------------------------------------------------------
+    10- FigureGen code supporting NetCDF and MPICH (/postProc/POSTPROC_KMZGIS/FigGen/FigureGen.F90)
+    11- USGS real-time data download and process: (/postProc/USGSusgs_wl_process.F90)
+    12- CPRG station code: (/postProc/CPRG_Lab/moving_minimum_WL.F90)
+  
+
+
+    For the Indian River Lagoon System forecasting -----------------------------------------
+    Open new screens and run following scripts. These script dowsnload observed 
+    water level, current velocity, wind, and wave height from CPRG website station at 
+    Sebastian Inlet. Unlike USGS and NOAA websites where users can request time series observation,
+    the CPRG Website contains observations at one time step. These scripts downloads and 
+    store observations in separate files containing time/date column and observed values.
+       - cprg-wind-download.sh
+       - cprg-WL-download.sh 
+       - cprg-wave-download.sh
+       - cprg-current-download.sh
+
+   ----------------------------------------------------------------------------------------
+    
+   Note:
+      - Downloading GEFS and SREF files is occurred in parallel.
+      - Processing these files is taken place in paralle. However, processing SREF files
+        in parallel may not complete due to memory issue. As of August 3, 2019, this process 
+        is taken place in serial. 
+        If your computer is equiped with strong RAM (more than 32 GB), you can add & at the end
+        of line 126 of 'SREF/src/download_sref_data.sh' so that the SREF files are processed
+        in parallel that eventually reduces the total wallclock time.
+        line 126:  ./NAMtoOWI.pl --ptFile ptFile.txt --namFormat grib2 --namType $dir --awipGridNumber 132 --dataDir $tmp/$dir/ --outDir $tmp/$dir/ --velocityMultiplier 1 --scriptDir $mainDIR --member sref & 
+        
+   
