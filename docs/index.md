@@ -278,7 +278,7 @@ hr {
 
 <br>
 <div class="row">
-    <img src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/full_elev_wind.gif?raw=true" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 </div>
 
 <div id="myModal" class="modal">
@@ -287,7 +287,7 @@ hr {
 
     <div class="mySlides">
       <div class="numbertext">1 / 4</div>
-      <img src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/full_elev_wind.gif?raw=true" style="width:100%">
+      <img src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%">
     </div>
 
     <div class="mySlides">
