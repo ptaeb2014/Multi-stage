@@ -1,0 +1,11 @@
+theme: jekyll-theme-minimal
+title: Ensemble Multistage
+author: Peyman Taeb
+email: ptaeb2014@my.fit.edu
+logo: /images/LOGO.jpg
+description: Operational, seven-member ensemble-based coastal wind, wave, and water level guidance is presented here for the East Central Florida Coast with high resolution in the Indian River Lagoon and Brevard County. These predictions were made by the physics-based ADCIRC+SWAN numerical model using NOAA’s North American Mesoscale (NAM) model, the Global Ensemble Forecast System (GEFS), and Short-Range Regional Ensemble Forecast (SREF) system.
+ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
+gems:
+  - jekyll-redirect-from
