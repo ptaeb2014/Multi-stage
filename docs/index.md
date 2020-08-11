@@ -317,7 +317,7 @@ hr {
       <img class="demo cursor" src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
     </div>
     <div class="column">
-      <img class="demo cursor" src="ttps://x4wo3q.sn.files.1drv.com/y4pXp9IACoUVlo8nqEsiiY5Qm3a90Y1JHk4NkIK0h0TQAHLtgHSao4ZmgHaKgs4XGDqr-69JPSHnPqJUU1MDWzmKoO_sDGk4WPS9LT5gEmIASVEhWOtsdkeQb_GxVUZwMLq9u-TpnAfueK5ht0kQ6ydyGLbDRY43L3pvgayYVK-YQUcKi9nh9JX5I-GU78MRNE_zJ-JtHKQLIQEXKEWNI-_Jnp0llvb-Hyx92IziroZAFw/full_hs_dir.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
+      <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4pXp9IACoUVlo8nqEsiiY5Qm3a90Y1JHk4NkIK0h0TQAHLtgHSao4ZmgHaKgs4XGDqr-69JPSHnPqJUU1MDWzmKoO_sDGk4WPS9LT5gEmIASVEhWOtsdkeQb_GxVUZwMLq9u-TpnAfueK5ht0kQ6ydyGLbDRY43L3pvgayYVK-YQUcKi9nh9JX5I-GU78MRNE_zJ-JtHKQLIQEXKEWNI-_Jnp0llvb-Hyx92IziroZAFw/full_hs_dir.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
     </div>
     <div class="column">
       <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4piqvkizS8-LeLxin3S68DTw-3aaxVW3TTdl9l876M8IkMQBz2E-71lRaSVqkhIj3cb2lEqLU8qHQEwJ-a7eT4nixOhJPrQ_S07YBBpCukq6ZVusnppMQfwYdWGBqyNwHxMxDk2OkbDcNcAE9O5Q-6Zss2byacw0TjYVKWYwb-fFKBoHrKqVEXnkqCz9tmZFLkDbVINS2qJ-mlI2UEfbYTjR6xyGFK88vLnEzcnSvSpKA/irl_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(3)" alt="Water Level and Wind">
@@ -743,18 +743,18 @@ hr {
 
 <script>
 function myFunction1() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSSouthSmyrna.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLSouthSmyrna.jpg?raw=true","water level", "height=500px, width=500px");  
+  window.open("https://sn3301files.storage.live.com/y4pbRnnQAnaTowLsEuoe2YQk3SFAPFWLYjnwf6joPORzdXnnIArzpFouabm_yNz6F9q33xyHRgSRMvkp90RZq1yquq4aNEzvnqGp_sQJTq11y8CxXCjM_gKqHEPSv34HNmQ34CWZ66V-IKRwWhIp0Bqxf_5IWkhDVSytiPVmW2WfhEmUde8W8XWwgwoL77ZljFgdHlvvAaD_Z-yFN2kZbjwmYC7rOSGjlYPeNqGu3uV1mM/HSSouthSmyrna.jpg?psid=1&width=1421&height=452?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://sn3301files.storage.live.com/y4pSvWrclIH1a4rSauPiYMy56E61Pcrarel--YVPL9wS-H8BlQzhMFbVmz2YGnaiP_xL6k4Sc9wxUIdyD-O4KBA0V-stW6NdklF-eY7grRa7MQPNs-aQRIs5twqs9HpmohM6KKnwm6os4GZ28bhp6noORgXsfkaF5hpuxK2xVkqzQEfcLuOx3bqgS8o_g3A7b-PbKyHSuXQh04AnhxH6GK1RGC1dgPyYB7RIN2qzpgvDMU/WLSouthSmyrna.jpg?psid=1&width=416&height=133?raw=true","water level", "height=500px, width=500px");  
 }
 
 function myFunction2() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSSouthNewSmyrna.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLSouthNewSmyrna.jpg?raw=true","water level", "height=500px, width=500px");
+  window.open("https://sn3301files.storage.live.com/y4pnlrazM8n8oyNq_m6lKhMixii71-kp9lhN0GRnxowW_vUBmWkB2-PDWjxvfOWQ2l6b2xFjW_QtPH_yGlYrDC-wTgLjBaNiQN4rTowK-Cv4b1nz-J8-AzxxJWOhqaJOh4Bm1PJs5ZARqbzeZEQ-pRr8jCXA_xxhiNtO0hoysC0snnTP89NO_2dYM__ZWX6UKNS2bosHC9aHc8FIMAL5X18RxrgnhD9ng14Zhp6iWqh0cs/HSSouthNewSmyrna.jpg?psid=1&width=1421&height=452?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://sn3301files.storage.live.com/y4pa3HGQEAVSf6ABaGytgGZww4krk7Xp_fMtFPaBjBkFlArK1jQxVhK_aCO43pcSsg6TG7l9aoFnomQ1KJxS7ZxNrER5MLnVQsekXt33wUNUQeiCRcJob66gjyh7AYU21HORhGuQfG2XYTAWw4qz--FOQ7QV-RHvoK_RbYtkkKCTLHQOKV5_pAvYXj3qWYHmEaWiMfA0wVAxTF0n9mm80-tpchI6SLY_rTXVkQyUt3jPU0/WLSouthNewSmyrna.jpg?psid=1&width=1421&height=452?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction3() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSHauloverCanal.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLHaulover.jpg?raw=true","water level", "height=500px, width=500px");
+  window.open("https://sn3301files.storage.live.com/y4pCbilIKFjMm8ywsaM7IGTgizIP9IToYqNBVfmidxSo6d37aLmJU2Y7En6KT4d8KOEiJzXejHrL-gzjol793jhcH7-0h1rg5m-UJAuyxyF_-2XW7zS-7BRCJvT8GEqB8qeVfu_jwWiOWuEm8bP2-rF875Y3jP7Kbtz2mAxfWZXsj0h2NCAu38CtCfQh1-6ptb9RBphZp_gKKzTF1ue4sFsSZq8UjHo5QC949VVFW1pmBc/HSHauloverCanal.jpg?psid=1&width=1421&height=452?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://sn3301files.storage.live.com/y4pyVf6NjeX4eE4hdvlzsGDs5q6mFF3D2AyQhoB8ueuIueQEIq4xwWBASVY_m25z8tbVCGoqll9frOO-aZCJq4shLL0x0m6AnHfAtwvzzASI7dajAlcxLorq9ov0AVm28ATRxdnyGowFAZWMFD3pG2WGxGV8-5d13JRj3-vDBArnrvGoEHMbbvw0vVPtN259-Ni6VDZC3Hn12g_ejzir6vpqXc2BelZ5OsI907x5noyPag/WLHaulover.jpg?psid=1&width=416&height=133?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction4() {
