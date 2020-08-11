@@ -292,17 +292,17 @@ hr {
 
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/full_hs_dir.gif?raw=true" style="width:100%">
+      <img src="https://x4wo3q.sn.files.1drv.com/y4pXp9IACoUVlo8nqEsiiY5Qm3a90Y1JHk4NkIK0h0TQAHLtgHSao4ZmgHaKgs4XGDqr-69JPSHnPqJUU1MDWzmKoO_sDGk4WPS9LT5gEmIASVEhWOtsdkeQb_GxVUZwMLq9u-TpnAfueK5ht0kQ6ydyGLbDRY43L3pvgayYVK-YQUcKi9nh9JX5I-GU78MRNE_zJ-JtHKQLIQEXKEWNI-_Jnp0llvb-Hyx92IziroZAFw/full_hs_dir.gif?download&psid=1?raw=true" style="width:100%">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/irl_elev_wind.gif?raw=true" style="width:100%">
+      <img src="https://x4wo3q.sn.files.1drv.com/y4piqvkizS8-LeLxin3S68DTw-3aaxVW3TTdl9l876M8IkMQBz2E-71lRaSVqkhIj3cb2lEqLU8qHQEwJ-a7eT4nixOhJPrQ_S07YBBpCukq6ZVusnppMQfwYdWGBqyNwHxMxDk2OkbDcNcAE9O5Q-6Zss2byacw0TjYVKWYwb-fFKBoHrKqVEXnkqCz9tmZFLkDbVINS2qJ-mlI2UEfbYTjR6xyGFK88vLnEzcnSvSpKA/irl_elev_wind.gif?download&psid=1?raw=true" style="width:100%">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/irl_hs_dir.gif?raw=true" style="width:100%">
+      <img src="https://x4wo3q.sn.files.1drv.com/y4pLHa4YQLgZ0SJAu-UF-LnqaLaxMpkpQS4YxbvJEGDlOtPfC_B9gg0GUV-fPwWyaFHQzcnij82cIwmUxWYSrsDxGrbBQ7j8KSqk5i7xzwCLvLvHtPBfHgZbxi9Pqy92CKaQBM3AoDhAGB_X7VSYpifiOV3eFCBDDItwi9hjnrVlTxu0eB8cdpYj_4VdGNh0hajSHkHXKLnqf10TA2WcUweXiZEQELoYXyQhkUXqgCf4Zc/irl_hs_dir.gif?download&psid=1?raw=true" style="width:100%">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -314,16 +314,16 @@ hr {
 
 
     <div class="column">
-      <img class="demo cursor" src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/full_elev_wind.gif?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
+      <img class="demo cursor" src="https://xbbava.sn.files.1drv.com/y4pvLp6Cycwy6hkvw11SNMRvVq3gAOpZd_BReXysdJzVRDzkC-5zfF3YE2hVTGL_KBzGO9A6hBnnjKh32yXCzvMFQdpZpVEUeKSId2CSeBKl01sHTE7ZLwOmr2jm7fmug0tjYe1pU_Gj5FSjbDO3z7lv8OWPhuhtKcNVbYIWPHt9_1cTDzv_6gvmR5EydnyUsWCguL_ydnzBAYaTjmJkqwwpyG2GuhgKxXMxdtIKnaacz0/full_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(1)" alt="Water Level and Wind">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/full_hs_dir.gif?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
+      <img class="demo cursor" src="ttps://x4wo3q.sn.files.1drv.com/y4pXp9IACoUVlo8nqEsiiY5Qm3a90Y1JHk4NkIK0h0TQAHLtgHSao4ZmgHaKgs4XGDqr-69JPSHnPqJUU1MDWzmKoO_sDGk4WPS9LT5gEmIASVEhWOtsdkeQb_GxVUZwMLq9u-TpnAfueK5ht0kQ6ydyGLbDRY43L3pvgayYVK-YQUcKi9nh9JX5I-GU78MRNE_zJ-JtHKQLIQEXKEWNI-_Jnp0llvb-Hyx92IziroZAFw/full_hs_dir.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(2)" alt="Wave Height and Direction">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/irl_elev_wind.gif?raw=true" style="width:100%" onclick="currentSlide(3)" alt="Water Level and Wind">
+      <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4piqvkizS8-LeLxin3S68DTw-3aaxVW3TTdl9l876M8IkMQBz2E-71lRaSVqkhIj3cb2lEqLU8qHQEwJ-a7eT4nixOhJPrQ_S07YBBpCukq6ZVusnppMQfwYdWGBqyNwHxMxDk2OkbDcNcAE9O5Q-6Zss2byacw0TjYVKWYwb-fFKBoHrKqVEXnkqCz9tmZFLkDbVINS2qJ-mlI2UEfbYTjR6xyGFK88vLnEzcnSvSpKA/irl_elev_wind.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(3)" alt="Water Level and Wind">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://github.com/ptaeb2014/Multi-stage/blob/master/plots/irl_hs_dir.gif?raw=true" style="width:100%" onclick="currentSlide(4)" alt="Wave Height and Direction">
+      <img class="demo cursor" src="https://x4wo3q.sn.files.1drv.com/y4pLHa4YQLgZ0SJAu-UF-LnqaLaxMpkpQS4YxbvJEGDlOtPfC_B9gg0GUV-fPwWyaFHQzcnij82cIwmUxWYSrsDxGrbBQ7j8KSqk5i7xzwCLvLvHtPBfHgZbxi9Pqy92CKaQBM3AoDhAGB_X7VSYpifiOV3eFCBDDItwi9hjnrVlTxu0eB8cdpYj_4VdGNh0hajSHkHXKLnqf10TA2WcUweXiZEQELoYXyQhkUXqgCf4Zc/irl_hs_dir.gif?download&psid=1?raw=true" style="width:100%" onclick="currentSlide(4)" alt="Wave Height and Direction">
     </div>
   </div>
 </div>
