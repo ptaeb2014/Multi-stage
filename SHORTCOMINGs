@@ -1,0 +1,30 @@
+
+1- Figuregen input files: The time header of the coarse mesh inputs is the cold start day
+                          The time header of the fine mesh inputs is the end of the hindcast (spin-up)
+   These two dates need to be written automatically. This feature is not supported yet.
+   The user needs to write these dates manually whenever the job is submitted for the 1st time.
+
+2- Check Coastal Process Research Group. 
+   If the timesnap for Hs is 14:15:00, the cprg-HS-download.sh adds 4 or 5 hours to it based
+   on the time zone (EST or EDT). Time zones are detected by the code and they are no the problem.
+   if EST => 14:15:00 + 4 = 18:15:00
+   if EDT => 14:15:00 + 5 = 19:15:00
+   Time intercal for Hs is 3 hours.
+   The next time step would be 22:15:00
+   The next would be 01:15:00
+
+   genvalidation_s1.sh script subtract 2 days from the 01:15:00 (local time converted to UTC)
+   This 01:15:00 is constant. It is not a variable and it is not corrected by the system when
+   time zone changes. Therefore, the user has to update it to 00:15:00 when time zone gets back
+   to EST.
+
+   Anther problem is posed when CPRG website operator changes the time format to 18:45:12!
+   User has to detect it and change the constant in genValidation_s1.sh
+
+   If the cycle 12UTC is used for validation, the start time of the validation model would 
+   be 12 UTC while the observation start time is 00 UTC! 
+   It is not a big deal, but!
+
+   If genvalidation_s1.sh subtract 2 days from the beginning of the current cycle (not from a constant)
+   and use a smarter way to cut the last two days of obs from the file (e.g. postProc/CPRG/obs-cur) 
+   that contains the obs time series of all the time, these problems would disappear. 
