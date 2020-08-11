@@ -1,0 +1,67 @@
+1- NAM
+   - Nowcast is downloaded by N_S1_gridded.sh for both meshes
+   - Forecast is downloaded by F_S1_gridded.sh after GEFS and SREF download completion
+
+2- GEFS
+   - FORECAST, downloaded after nowcast simulations completion and before any forecast simulation
+     March2019: the serial download version is not up to date.
+                GEFS forecast hour starts at the same time as NAM
+     index is downloaded to get the issued cycles in the day.
+     the last line is the latest cycle.
+     March2019: no need no line for checking with the old cycle. old cycle checking is redundant here
+                as the code is activated when there is a new NAM, so there should be a new SREF/GEFS
+
+3- SREF
+   - FORECAST, downloaded after nowcast simulations completion and before any forecast simulation
+     March2019: the serial download version not exists          
+                SREF forecast hour starts at the same time as NAM. since it is 3 hours off, we use an old cycle.
+     index is downloaded to get the issued cycles in the day.
+     the last line is the latest cycle.
+     6 hours is subtracted to get the cycle issued before the latest
+     This old one is used starting at 03.
+     for 03 cycle, today date is updated to yesterday to get the 21 cycle.
+     March2019: no need no line for checking with the old cycle. old cycle checking is redundant here
+                as the code is activated when there is a new NAM, so there should be a new SREF/GEFS
+
+NOTE    
+     GEFS and SREF headers start six hours before the NAM header 
+     IS IT Okay? Seems no for 1st inpect
+   
+     and why NAM is like 6 hours ahead of GEFS? at least in naming cycle?
+   
+     Keep this line if everything is fine after troubleshooting
+     NAM cycle is named as GEFS cycle + 6 hour
+     SREF cycle starts 3 hours after GEFS.
+  
+      
+     1st inspect: cycle 00 of march 4. New method shows 6 hours lag. 
+                  headers shows 6 hour lag as well.
+                  An old cycle in which all were in phase inspected. Headers had the same start time indicating old method was right
+                  The cycle that showed the 6 hour diff and made me apply these changes inspected. headers were 6 hour diff.
+                  why? GEFS is downloaded much earlier than NAM, what about SREF? SREF was downloaded after NAM.
+     2nd inspect: cycle 12 of march 4
+
+
+     Everything get back to what it used to be, GEFS starts at 06 and SREF starts at 03
+     3rd inspect: cycle 00 of march 5
+
+
+     4rd inspect: cycle 12 of march 5
+               
+
+     possible conclusion:
+                         NAM is issued sooner than any cycle. When capturing cycle XX for nam, cycle XX-1 is available for GEFS
+                         Thus, should get the XX-1 of GEFS and start from 06.
+
+                         probable issues: 
+                                        old method in terms of when each is downloaded. GEFS during nowcast, then NAM, then SREF
+                                        NAM nowcast is downloaded and the cycle number is saved into current cycle.
+                                        Then, nowcast sim is run and GEFS is downloaded. GEFS has issued for this cycle at the same time
+                                        as nam, or in the meantime, GEFS cycle has been updated. For any reason, GEFS and NAM has the same
+                                        cycle, therfore, starting downloading GEFS from 006 causes a lag of 6 hours.
+                                        It is possible that even NAM has been updated, but the system download for the same cycle as nowcast
+                                        by reading from current.cycle file. SREF and GEFS should do the same, I guess. 
+                          
+                         
+                        
+    
