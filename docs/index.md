@@ -848,14 +848,15 @@ function myFunction21() {
 }
 
 function myFunction22() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSStlucieSouthA1A.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLStlucieSouthA1A.jpg?raw=true","water level", "height=500px, width=500px");
+  window.open("https://kzyysq.sn.files.1drv.com/y4mpxGyP-A0IRrFG-GeOYKVhgxxH0XE6enWD_NZmiNa-5rVWnhO2sHslm984a0VYgCi2DCyLYx9kK4h36ZD2ufezcHAukHIpubUQXafA7HFhMznH0FtJ5Kid7vQK3pD3x4LJwSi7nQ4Rfxly7tYKAQ1FGBb8Z6AGSjmHFtrf7faYH1KVLlPPhLjI_s0Uu0wEtkBAyhdMWz27JDXVrpxYCWXjA?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://jif9ga.sn.files.1drv.com/y4mu-9ISBIi1ZRKfBmjv67fooy4-mq0PlrNN57Fd7WMUiMR01IrqqB40rj8-5gbNrXbJjsFH9j_qWTs6okqElkxpHnEWwS4ZUmbR93eC-48oEOuGT5zG0sGh2M5zFLJ0T1pQ4dJlvfRqeO-9GLBGMHHrZeLQU7LvD81tJutyNIjpgGynKEII1dGTWwsGqORzxhAHxxGj8YoKt2K807yMaDKrQ?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction23() {
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/HSJupiterInletLoxahatchee.jpg?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://github.com/ptaeb2014/Multi-stage/blob/master/plots/WLJupiterInletLoxahatchee.jpg?raw=true","water level", "height=500px, width=500px");
+  window.open("https://87lbsa.sn.files.1drv.com/y4mgdLeOpZyDNkifqHpdH5s-zzQfV1luEQOiTJ3EiHnq4SPucp5hn6BuJ_tdif9MKb14w2olbSQU7kc8vt0aMel_wtKvon5IFzcPFitG-ZUtjDFAzlW6Xtbt8xI2hGhg-lfcJYwV9f6vXWEO6wxFDObS9tMnB119xpDxEhIrl5yPR7KGjJgZmK_2Pqv7nOslMGl3Il0aIoFjFQFCLMuNWlDig?raw=true","wave height", "height=500px, width=500px");
+  window.open("https://wd5jsa.sn.files.1drv.com/y4mCUKL3j6rQ6RQnZdb3clWE8PaeRk5fm1owJuZvkPGsPB1uYmTnThvpms-wIwhlQA9gHAEwPvp5Du2KoHMU3AjclEB_H17FxF_qUSKpt3EH2AjG00TnDty0XUN9oOko27r-7x6s-NFlopu2c_2nAWeiXGzbaZnbuoYN48CcmP4SXSv8iPpvxuve2xv5ufc-SrWXlPG58rHSPiNGIm8FVhjzQ?raw=true","water level", "height=500px, width=500px");
 }
+
 </script>
 
 </body>
