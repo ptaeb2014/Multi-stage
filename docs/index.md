@@ -743,7 +743,7 @@ hr {
 
 <script>
 function myFunction1() {
- window.open("<img src="https://wd7kja.sn.files.1drv.com/y4moVwV6zOtf7DRmamzkgoA4m88e06TGROw6Km2thCt7IczuRLVedmG0zm0HiQxzsn7ks1RKa1UnXV7bGvcbM-lF8YRmCe-TmEOORr1wZlw0NNory0hZWtTAqcmYDgVmy0oyU2GDQY1Z6OLmkwl75O-3d9Mq9RgBB-T2TEytD7RbnImXFVJDC2fLVxIm9Iz2SOit6MJRtDcSKLApnPCQQk3zQ?width=4400&height=1400&cropmode=none" />?raw=true","wave height", "height=500px, width=500px");
+ window.open("https://wd7kja.sn.files.1drv.com/y4moVwV6zOtf7DRmamzkgoA4m88e06TGROw6Km2thCt7IczuRLVedmG0zm0HiQxzsn7ks1RKa1UnXV7bGvcbM-lF8YRmCe-TmEOORr1wZlw0NNory0hZWtTAqcmYDgVmy0oyU2GDQY1Z6OLmkwl75O-3d9Mq9RgBB-T2TEytD7RbnImXFVJDC2fLVxIm9Iz2SOit6MJRtDcSKLApnPCQQk3zQ?width=4400&height=1400&cropmode=none?raw=true","wave height", "height=500px, width=500px");
   window.open("https://sn3301files.storage.live.com/y4pSvWrclIH1a4rSauPiYMy56E61Pcrarel--YVPL9wS-H8BlQzhMFbVmz2YGnaiP_xL6k4Sc9wxUIdyD-O4KBA0V-stW6NdklF-eY7grRa7MQPNs-aQRIs5twqs9HpmohM6KKnwm6os4GZ28bhp6noORgXsfkaF5hpuxK2xVkqzQEfcLuOx3bqgS8o_g3A7b-PbKyHSuXQh04AnhxH6GK1RGC1dgPyYB7RIN2qzpgvDMU/WLSouthSmyrna.jpg?psid=1&width=416&height=133?raw=true","water level", "height=500px, width=500px");  
 }
 
