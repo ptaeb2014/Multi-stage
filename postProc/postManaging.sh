@@ -34,18 +34,18 @@ do
    do
      # Folder name is the same as PS file excluding .ps
      # The following command trim the last 3 character: .ps
-     if [ ! -e  ${github}/plots/ ]; then 
-        mkdir ${github}/plots/
+     if [ ! -e ${mainDIR}/products/ ]; then 
+        mkdir ${mainDIR}/products/
      fi 
-     cp $file ${github}/plots/
+     cp $file ${mainDIR}/products/
  
-     cd ${github}         
-     git remote add origin https://github.com/ptaeb2014/Multi-stage.git
-     git config credential.helper store 
-     git add plots/$file
-     git commit -m "Upload $cycleDir"    
-     git push origin master
-     cd -
+     #cd ${github}         
+     #git remote add origin https://github.com/ptaeb2014/Multi-stage.git
+     #git config credential.helper store 
+     #git add plots/$file
+     #git commit -m "Upload $cycleDir"    
+     #git push origin master
+     #cd -
 
    done
    
@@ -55,18 +55,18 @@ do
 done
 
 # 4 more things for GitHub
-cp $mainDIR/$ID/$cycleDir/nam/S1/full_elev_wind.gif ${github}/plots/full_elev_wind.gif
-cp $mainDIR/$ID/$cycleDir/nam/S1/full_hs_dir.gif    ${github}/plots/full_hs_dir.gif   
+cp $mainDIR/$ID/$cycleDir/nam/S1/full_elev_wind.gif ${mainDIR}/products/full_elev_wind.gif
+cp $mainDIR/$ID/$cycleDir/nam/S1/full_hs_dir.gif    ${mainDIR}/products/full_hs_dir.gif
 
-cp $mainDIR/$ID/$cycleDir/nam/S2/irl_elev_wind.gif  ${github}/plots/irl_elev_wind.gif
-cp $mainDIR/$ID/$cycleDir/nam/S2/irl_hs_dir.gif     ${github}/plots/irl_hs_dir.gif
+cp $mainDIR/$ID/$cycleDir/nam/S2/irl_elev_wind.gif  ${mainDIR}/products/irl_elev_wind.gif
+cp $mainDIR/$ID/$cycleDir/nam/S2/irl_hs_dir.gif     ${mainDIR}/products/irl_hs_dir.gif
 
 filess=( full_elev_wind.gif full_hs_dir.gif irl_elev_wind.gif irl_hs_dir.gif )
 
 # cd GITHUB
-cd ${github}
-git remote add origin https://github.com/ptaeb2014/Multi-stage.git
-git config credential.helper store
+#cd ${github}
+#git remote add origin https://github.com/ptaeb2014/Multi-stage.git
+#git config credential.helper store
 
 # Writing the current forecast cycle
 cp $mainDIR/utility/index_sample.md index.md
@@ -80,14 +80,17 @@ sed -i "s/%CYCLEE%/"${cycle}"/g" index.md
 git add index.md
 git commit -m "Upload $cycleDir"
 git push -f origin master
+#
+#for (( i=0 ; i<=3 ; i++ )) ;
+#do
+#    git add plots/${filess[$i]}
+#    git commit -m "Upload $cycleDir"
+#    git push -f origin master
+#done
 
-for (( i=0 ; i<=3 ; i++ )) ;
-do
-    git add plots/${filess[$i]}
-    git commit -m "Upload $cycleDir"
-    git push -f origin master
-done
-
+# ------------------------------------------------------------
+#                     onedrive syncing
+onedrive --synchronize
 # ------------------------------------------------------------
 #                       Free up space
 
