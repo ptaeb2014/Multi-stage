@@ -1,0 +1,34 @@
+
+        In any S1's: F/N
+        [./open_bn_finder.x fort.14_nested] run by N/F_S1.sh => output: boundaryNode                       CONFIG
+                |										            |
+                |                                                                                           |
+          boundaryNode                                                                           elev. station output
+                |                                                                                           |
+                |-------------------------------------------------------------------------------------------|
+                |
+                |
+        -----------------------------------------------------------------------------------------------------------------------
+       | 														       |
+       |                                                                                                                   Nowcast: Just boundaryNode    
+  Forecast => boundaryNode pasting to ElevStation output by F_S1.sh => output: boundaryNode                                    |        
+       |            													       |
+        -----------------------------------------------------------------------------------------------------------------------
+                |
+                |
+                |
+      boundaryNode written to fort.15
+                |
+                |
+             model output
+                |
+                |             | time step 1
+             fort.61----------| ####       open node
+                |             | ####       open node
+                |             | ##         station outputs (nothing here if nowcast)
+                |             | ##         station outputs (nothing here if nowcast)
+                |
+                |
+           bcGen.61.x
+      reads & writes only for      
+      open nodes in fort.19 (if nowcast, there exist only open nodes)  -- UPDATE MARCH19: "Fort.19 = fort.61 - SSHAG (of S1)"
