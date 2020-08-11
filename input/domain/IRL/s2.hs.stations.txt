@@ -1,0 +1,21 @@
+20
+1 -80.913932       29.057851       ! SouthSmyrna              
+2 -80.911552       29.011954       ! SouthNewSmyrna           
+3 -80.759174       28.732009       ! HauloverCanal           
+4 -80.801562       28.711671       ! NorthIndianRiver         
+5 -80.792666       28.612403	   ! Titusville               
+6 -80.729728       28.387302       ! Cocoa                    
+7 -80.688907       28.292569       ! SouthRockledge          
+8 -80.650486       28.207500       ! NorthSR404   
+9 -80.617813       28.133860       ! NorthSR518               
+10 -80.592525       28.085016       ! NorthUSR192             
+11 -80.478136       27.860650       ! NorthSebInlet            
+12 -80.6106587646   28.1597302995   ! LansingIsland       
+13 -80.651674       28.316075       ! ThousandIslandBR         
+14 -80.648510       28.361637       ! NorthSR520              
+15 -80.632142       28.433361       ! NorthCape              
+16 -80.4273962174   27.7551942432   ! Wabasso                 
+17 -80.326427       27.474438       ! FortPierceNorth        
+18 -80.310145       27.447064       ! FortPierce              
+19 -80.191280       27.205374       ! StlucieSouthA1A          
+20 -80.079966       26.946954       ! JupiterInletLoxahatchee 
