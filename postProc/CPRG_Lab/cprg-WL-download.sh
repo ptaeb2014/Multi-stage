@@ -31,7 +31,8 @@ while [ $cntr -gt 0 ]; do
       echo "INFO: water level is $WL_mllw meter in MLLW"
 
       # offset of NAVD88 from MLLW
-      off="0.860"   # From https://tidesandcurrents.noaa.gov/datums.html?units=1&epoch=0&id=8721604&name=Trident+Pier%2C+Port+Canaveral&state=FL 
+      # off="0.860"   # From https://tidesandcurrents.noaa.gov/datums.html?units=1&epoch=0&id=8721604&name=Trident+Pier%2C+Port+Canaveral&state=FL 
+      off="1.1"       # PY&RJW Following conversation in August 2020
  
       # Converting MLLW to NAVD88 
       WL_m=`echo ''$WL_mllw' - '$off'' | bc -l`
