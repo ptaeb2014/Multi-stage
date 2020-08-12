@@ -267,7 +267,7 @@ hr {
 </style>
 <body>
 
-<p>3.5-day forecast starting on Mon May 18 2020 cycle 12Z<p>
+<p>3.5-day forecast starting on Wed Aug 12 2020 cycle 00Z<p>
 <br>
 
 <p3>Representative animated forecast results</p3>
@@ -294,17 +294,17 @@ hr {
       <div class="numbertext">2 / 4</div>
       <img src="https://jicsiw.sn.files.1drv.com/y4mzHMkeESbUwmJ-QpYU1h2NZOVuQW5eHGeH_sALm7Z0oXcGDRycrUuRKQ5k4hNTXflaItmTmKn17cg7TR57riz30cjo2IFpfAOQe960WJZLnhyqWOnb08FTZHOs9qtNOJBD6O3Slc-dnpSQT2w9zHFqw9memdNu2w4YngDnU4XUgL9Eu3MPcbSvLr43b0naKvysa5d1YKFIJ_mmXtNb4aXiQ?raw=true" style="width:100%">
     </div>
-    
+
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
       <img src="https://vclrja.sn.files.1drv.com/y4mCGTl69TfsjAMHBoSkF4KW4T20i-hvJe5_nga3ImCxhzvdzB8qNDsfU4puJJItW9sxPG5kLukvaqfvyU97Rn-lKg7Ma8o6wEwiANySEzqYqa3PokBFU5ybSoRy_VgX0jSCH3NSVgBmmpQ5AUUbHCvQbfVyKBdEnwOUo7CsOsVqBB3WDVkd59qi2EfTuZ4RB1d8ccis3kIQ68GUFqqLbb3mA?raw=true" style="width:100%">
     </div>
-    
+
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
       <img src="https://wd4adg.sn.files.1drv.com/y4mY8hAC7ebc8QEuD7wl4cUmWo_F3e36aHliaHb61O96sBpjkzbJ1qdvH5HlwclsbqhHG7yM_d6H9TB8MRzD-i86Q4CbnHAHOl1eNhfw-GoanQ47j10fkyApZE_pwfn2VY2W8kq3ar4CQpMJnbhVhh4nXBD7VLf3yBnOTRGfgfMvQMona61Zf2vXN07BmVzAC-V__bt6L9SQJM2SjBKn-GtWw?raw=true" style="width:100%">
     </div>
-    
+ 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -327,7 +327,6 @@ hr {
     </div>
   </div>
 </div>
-
 
 <script>
 function openModal() {
@@ -744,7 +743,7 @@ hr {
 <script>
 function myFunction1() {
  window.open("https://87lwug.sn.files.1drv.com/y4mRLgaYs05hPu05oJd9TsdTMnQbUM3Z5GYrxhh8px80h8GdUIBxnGOQwAgR4byu0r0WHsRqttBx0afEWuLnlYpro33gbnSgoqS9qQueaovBEYTKGZHPYomb1-cFY6Cw1NzI_i5HoGtRbI4l4UqNaI0asDrc2fejWtPhGwkKC5csQIB0aVPOKEVv7qhoTlMykBvb7-UraWOJTvnhonng0O83A?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://vck1ow.sn.files.1drv.com/y4mroyy2BvhAdlqB55TMBVn14_Sv1fPYyanawW9ok_u7UM3Ai9PD1tqyCS6GLFROJ3QFdIMur2mQaunrUChhkdbv8rO_u2tXDXPvVQUw1chvbOroh96RlqhbAg4uawszGmczuLoeROUu0fHqoGf4q4qW213yT4MJagu9FHq8GPicMUFo0tnOv4juzV2PZWmW2XJQkx5iVZtwurJKbaLDgDlmw?raw=true","water level", "height=500px, width=500px");  
+  window.open("https://vck1ow.sn.files.1drv.com/y4mroyy2BvhAdlqB55TMBVn14_Sv1fPYyanawW9ok_u7UM3Ai9PD1tqyCS6GLFROJ3QFdIMur2mQaunrUChhkdbv8rO_u2tXDXPvVQUw1chvbOroh96RlqhbAg4uawszGmczuLoeROUu0fHqoGf4q4qW213yT4MJagu9FHq8GPicMUFo0tnOv4juzV2PZWmW2XJQkx5iVZtwurJKbaLDgDlmw?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction2() {
@@ -771,6 +770,7 @@ function myFunction6() {
   window.open("https://87kega.sn.files.1drv.com/y4m_GyCV1QpgHTVbQAzB-8r4F-xKzpIxv0ZeogC_DBlWTnF664mdXsPmEw9xPkg2lEYsafPqq1h-RSBrV7FP5qBdsoVTrapp2bUjsoew-pLDfb5dtFvapyTA5U78PDHtTmrJnKfJwU9HOUNgQH-bQ5iuOZNW21Y3kGFEb1r3bJiUz1-0Bt5WPBANiaYFkgcREVUhFwXl3GvDrvv5zy8_OQgkg?raw=true","wave height", "height=500px, width=500px");
   window.open("https://kzwq9g.sn.files.1drv.com/y4mQkPnl69dKySA_M5xdLgZmROh4WK4195F2B1B7fWyH1eiBExlkg97J4p0GT-oZgSUkQu98mRnblw67NmvbDmXk8MvIKhPOeu7dJhDyvmnsee_5KO_j2K2JZIkaYWcWJMLy-45mB8bvpQ61yOPTXqSK8URaq_9yY6V46KS3xf_IVyvT-JU7urqsx5dn-5KGh1jpOK5E2RKEKC5NCYiM-6QAA?raw=true","water level", "height=500px, width=500px");
 }
+
 
 function myFunction7() {
   window.open("https://kzwjrw.sn.files.1drv.com/y4mRcdXevMPjkbKcf14SQTJWBVat1UBZNkDKkjut4OoUzFoh7RKyouTLRg0ZGJspBorcQLK28l8z8I0VHMXhEU_XM8YsvvFkfWh-IyHcx7a1a5PY5L13CSTIdDQPts8pi_gKMk3p2fmS5LgScChE-7gWpQ3hlTGQRzv2s_xZpgkiSPrkd4Nusu_wm28wweSSQI_vPRDTkL9lfWmWZBHaRJtCQ?raw=true","Water Level", "height=500px, width=500px");
@@ -803,7 +803,6 @@ function myFunction12() {
 
 function myFunction13() {
   window.open("https://wd7d3q.sn.files.1drv.com/y4mUjAxO_m7MegesgUlhzz07CrCbC_8xTCeHo4xZSp78y0h-i53KqZV3-t2vPl3X-JsWydiHbq39dkjqdoIUAEYUEiG7NGmV5CD6sAXSL0Ppvd-RxXmmg5WnmwcxyZJYRAS9Dyr8Mf83pEyVahAmGR-g4a-R0WWZCpj6HxklzSZD7MM8sPRuCt9-6Gei_nL9RB7K-ZUNAb3GaUqXWlTuf7SuQ?raw=true","wave height", "height=500px, width=500px");
-  window.open("https://kzztxq.sn.files.1drv.com/y4meLlLw4nT7QCVMpgivio5356C2bkycSHmJvKqPZZhoPV3CquwCaIYvxVzSULBs34uNh1wGXcVz49dSmddiZO_HGHMykQKnuZQ_bKm-4NX-v5s8PhiKu2EXHGuivqAMClHV4b4_4gBxUQW3QZ1_kgQsaj3EntDzrFZ9r4yb6rVjtQ_QuaUsJLAreAZ3c30auXFR8rW6nY9z1gyK7p8pZq_ZA?raw=true","water level", "height=500px, width=500px");
 }
 
 function myFunction14() {
@@ -856,7 +855,6 @@ function myFunction23() {
   window.open("https://87lbsa.sn.files.1drv.com/y4mgdLeOpZyDNkifqHpdH5s-zzQfV1luEQOiTJ3EiHnq4SPucp5hn6BuJ_tdif9MKb14w2olbSQU7kc8vt0aMel_wtKvon5IFzcPFitG-ZUtjDFAzlW6Xtbt8xI2hGhg-lfcJYwV9f6vXWEO6wxFDObS9tMnB119xpDxEhIrl5yPR7KGjJgZmK_2Pqv7nOslMGl3Il0aIoFjFQFCLMuNWlDig?raw=true","wave height", "height=500px, width=500px");
   window.open("https://wd5jsa.sn.files.1drv.com/y4mCUKL3j6rQ6RQnZdb3clWE8PaeRk5fm1owJuZvkPGsPB1uYmTnThvpms-wIwhlQA9gHAEwPvp5Du2KoHMU3AjclEB_H17FxF_qUSKpt3EH2AjG00TnDty0XUN9oOko27r-7x6s-NFlopu2c_2nAWeiXGzbaZnbuoYN48CcmP4SXSv8iPpvxuve2xv5ufc-SrWXlPG58rHSPiNGIm8FVhjzQ?raw=true","water level", "height=500px, width=500px");
 }
-
 </script>
 
 </body>
