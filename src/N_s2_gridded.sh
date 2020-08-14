@@ -113,6 +113,7 @@ fi
 # Get back to the main directory (might not be necessary though)
 cd $mainDIR
 . $CONFIG
+ENSTORM="nowcast"
 
 # Linking input files: grid; nodal attribute;
 logMessage "Linking input files into $RUNDIR ."
@@ -131,8 +132,17 @@ if [[ ! -z $s2_ndlattr && $s2_ndlattr != null ]]; then
 
    # Writing SSHAG to fort.13
    cd $RUNDIR/
+   empty_check=`wc -l SSHAG | cut -d' ' -f1`
+   if [ "${empty_check}" == "0" ]; then
+      cp $mainDIR$ID/$lastDIR/nowcast/S1/SSHAG .
       sshagVar=`cat SSHAG`
-      sed -i "s/%SSHAG%/${sshagVar}/g" fort.13
+      logMessage "For $ENSTORM, stage 2, sea surface height above geoid was not extracted from NOAA station $site but from previous run $lastDIR and it value is $sshagVar"
+   elif
+      sshagVar=`cat SSHAG`
+      logMessage "For $ENSTORM, stage 2, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
+   fi
+   sed -i "s/%SSHAG%/${sshagVar}/g" fort.13
+   logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site nad is $sshagVar"
    cd -
 
 fi
@@ -143,7 +153,6 @@ ln -s ${nowcastDIR}/fort.221         $RUNDIR/fort.221
 ln -s ${nowcastDIR}/fort.222         $RUNDIR/fort.222
 
 # Setting up some miscellaneous paramaters
-ENSTORM="nowcast"
 stormDir=$RUNDIR
 CONTROLTEMPLATE=${s2_cntrl}
 GRIDNAME=${s2_grd}

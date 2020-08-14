@@ -99,6 +99,7 @@ fi
 # Probably got lost, get back to main dir and call confid (might be deprecated)
 cd $mainDIR
 . $CONFIG
+ENSTORM=${member}
 
 # Linking input files: grid; nodal attribute;
 ln -s ${s2_INPDIR}/${s2_grd}         $RUNDIR/fort.14
@@ -116,8 +117,17 @@ if [[ ! -z $s2_ndlattr && $s2_ndlattr != null ]]; then
 
    # Writing SSHAG to fort.13
    cd $RUNDIR/
+   empty_check=`wc -l SSHAG | cut -d' ' -f1`
+   if [ "${empty_check}" == "0" ]; then
+      cp $mainDIR$ID/$lastDIR/nowcast/S1/SSHAG .
       sshagVar=`cat SSHAG`
-      sed -i "s/%SSHAG%/${sshagVar}/g" fort.13
+      logMessage "For $ENSTORM, stage 1, sea surface height above geoid was not extracted from NOAA station $site but from previous run $lastDIR and it value is $sshagVar"
+   elif
+      sshagVar=`cat SSHAG`
+      logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
+   fi
+   sed -i "s/%SSHAG%/${sshagVar}/g" fort.13
+   logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site nad is $sshagVar"
    cd -
 
 fi
@@ -157,7 +167,6 @@ elif [[ $member = SREFmeanMstd ]]; then
 fi
 
 # Setting up some paramters
-ENSTORM=${member}
 stormDir=$RUNDIR
 CONTROLTEMPLATE=${s2_cntrl}
 GRIDNAME=${s2_grd}
