@@ -205,7 +205,7 @@ if [[ ! -z $s1_ndlattr && $s1_ndlattr != null ]]; then
       cp $mainDIR$ID/$lastDIR/nowcast/S1/SSHAG .
       sshagVar=`cat SSHAG`
       logMessage "For $ENSTORM, stage 1, sea surface height above geoid was not extracted from NOAA station $site but from previous run $lastDIR and it value is $sshagVar"
-   elif
+   else
       sshagVar=`cat SSHAG`
       logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
    fi
