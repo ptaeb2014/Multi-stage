@@ -778,7 +778,7 @@ function myFunction7() {
 }
 
 function myFunction8() {
-  window.open("https://wd54ug.sn.files.1drv.com/y4mIQ5op4rphycblfM0Rs3QyGd5XPA-OY5-Dgy0XM3sjZyAgO2VwK2wAvykEBIbrpkA9UcfHZyjb_TBY9yWmmeuNcJ4xszPmpfU18Lxvz4lvTXh4RtZIKPMaO2Tek4ind4J8-_zd61pZnMO4f2m65YsyQY-qemf0WN-HmNxVPm2S1QoK81wXX4IoHCN8VyyezTcCK_3yIx2gSGgjPEHId4gPg?raw=true","Wave height", "height=500px, width=500px");
+  window.open(https://wd54ug.sn.files.1drv.com/y4mts7axsmZjaVB4gJAJG6Ku1nyVuhsT-lGBSI-pNf7wxvdxmwSKGtXWFpEGD5wO03ijRIzX2Kxh1lBYmIVjmjHziP20qqdzOnDFlYywt06mYJtOdJhQ_f57c1JKy4R116Do1yMQPjtEnj1LJc3TgjwplA_n2Ua8CzYVM7ZDerAg3wenWRRB46QUn5PecKxANQr9yT2loFNW2Q66OsYdQ7usw?raw=true","Wave height", "height=500px, width=500px");
 }
 
 function myFunction9() {
