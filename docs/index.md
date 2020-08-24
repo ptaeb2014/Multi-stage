@@ -778,7 +778,7 @@ function myFunction7() {
 }
 
 function myFunction8() {
-  window.open(https://wd54ug.sn.files.1drv.com/y4mts7axsmZjaVB4gJAJG6Ku1nyVuhsT-lGBSI-pNf7wxvdxmwSKGtXWFpEGD5wO03ijRIzX2Kxh1lBYmIVjmjHziP20qqdzOnDFlYywt06mYJtOdJhQ_f57c1JKy4R116Do1yMQPjtEnj1LJc3TgjwplA_n2Ua8CzYVM7ZDerAg3wenWRRB46QUn5PecKxANQr9yT2loFNW2Q66OsYdQ7usw?raw=true","Wave height", "height=500px, width=500px");
+  window.open("https://wd54ug.sn.files.1drv.com/y4mts7axsmZjaVB4gJAJG6Ku1nyVuhsT-lGBSI-pNf7wxvdxmwSKGtXWFpEGD5wO03ijRIzX2Kxh1lBYmIVjmjHziP20qqdzOnDFlYywt06mYJtOdJhQ_f57c1JKy4R116Do1yMQPjtEnj1LJc3TgjwplA_n2Ua8CzYVM7ZDerAg3wenWRRB46QUn5PecKxANQr9yT2loFNW2Q66OsYdQ7usw?raw=true","Wave height", "height=500px, width=500px");
 }
 
 function myFunction9() {
