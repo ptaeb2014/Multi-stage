@@ -267,7 +267,7 @@ hr {
 </style>
 <body>
 
-<p>3.5-day forecast starting on Thu Aug 27 2020 cycle 18Z<p>
+<p>3.5-day forecast starting on Fri Aug 28 2020 cycle 06Z<p>
 <br>
 
 <p3>Representative animated forecast results</p3>
