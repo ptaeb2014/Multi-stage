@@ -267,7 +267,7 @@ hr {
 </style>
 <body>
 
-<p>3.5-day forecast starting on Sat Oct 10 2020 cycle 12Z<p>
+<p>3.5-day forecast starting on Sun Oct 11 2020 cycle 00Z<p>
 <br>
 
 <p3>Representative animated forecast results</p3>
