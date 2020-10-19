@@ -20,7 +20,7 @@ downloadGEFS(){
     #
     # Setting the URL
     url_con='https://www.ftp.ncep.noaa.gov/data/nccf/com/gens/prod/gefs.'
-    url_var=$today_date'/'$current_run'/pgrb2ap5/'$ens'.t'$current_run'z.pgrb2a.0p50.f'$fcst_hour
+    url_var=$today_date'/'$current_run'/atmos/pgrb2ap5/'$ens'.t'$current_run'z.pgrb2a.0p50.f'$fcst_hour
     url=$url_con$url_var
 
     # 
@@ -48,6 +48,8 @@ ensemble=()
 ensemble+=( gec00 gep01 gep02 gep03 gep04 gep05 gep06 )
 ensemble+=( gep07 gep08 gep09 gep10 gep11 gep12 gep13 )
 ensemble+=( gep14 gep15 gep16 gep17 gep18 gep19 gep20 )
+ensemble+=( gep21 gep22 gep23 gep24 gep25 gep26 gep27 )
+ensemble+=( gep28 gep29 gep30 )
 lenE=${#ensemble[@]}
 
 # removing previous index.htms
