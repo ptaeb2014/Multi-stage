@@ -17,7 +17,18 @@ cd $RUNDIR
 POSTPROC_DIR=$OUTPUTDIR/POSTPROC_KMZGIS
 OUTPUTPREFIX=${cycleDIR}.vis
 JPGLOGFILE=$remote/jpg.log
-
+# Extracting time from config to write to figure gen input files
+# Large coarse domain
+year=$(echo "${CSDATE}" | cut -c1-4)
+month=$(echo "${CSDATE}" | cut -c5-6)
+day=$(echo "${CSDATE}" | cut -c7-8)
+hour=$(echo "${CSDATE}" | cut -c9-10)
+# High Res domain
+CSDATE_hires=`date '+%Y%m%d' -d "$(echo ${CSDATE} | cut -c1-8)+${HINDCASTLENGTH} days"`
+year_hires=$(echo "${CSDATE_hires}" | cut -c1-4)
+month_hires=$(echo "${CSDATE_hires}" | cut -c5-6)
+day_hires=$(echo "${CSDATE_hires}" | cut -c7-8)
+hour_hires=$(echo "${CSDATE}" | cut -c9-10)
 # ------------------------------------------------------------------------
 #   2D Contour of full domain (excluding bay of Main and Fundy)
 # ------------------------------------------------------------------------
@@ -34,21 +45,45 @@ fi
 
 # Copying control files, Labels, and other utilites
 if [[ $stage -eq 1 ]]; then
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-ele-wind.tmp            $RUNDIR/irl-ele-wind.inp 2>> $JPGLOGFILE
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-hs-dir.tmp              $RUNDIR/irl-hs-dir.inp   2>> $JPGLOGFILE
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year}/g"     $RUNDIR/full-ele-wind.inp
+   sed -i "s/%MONTH%/${month}/g"   $RUNDIR/full-ele-wind.inp
+   sed -i "s/%DAY%/${day}/g"       $RUNDIR/full-ele-wind.inp
+   sed -i "s/%HOUR%/${hour}/g"     $RUNDIR/full-ele-wind.inp
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year}/g"     $RUNDIR/full-hs-dir.inp
+   sed -i "s/%MONTH%/${month}/g"   $RUNDIR/full-hs-dir.inp
+   sed -i "s/%DAY%/${day}/g"       $RUNDIR/full-hs-dir.inp
+   sed -i "s/%HOUR%/${hour}/g"     $RUNDIR/full-hs-dir.inp
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/Elev_MS.pal                 $server:$remote
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/HS.pal                      $server:$remote 
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/fulldomain_background.txt   $server:$remote
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/fulldomain_background.pgw   $server:$remote 
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/fulldomain_background.png   $server:$remote 
-   scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/full-ele-wind.inp           $server:$remote 
-   scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/full-hs-dir.inp             $server:$remote 
+   scp $RUNDIR/full-ele-wind.inp                                          $server:$remote 
+   scp $RUNDIR/full-hs-dir.inp                                            $server:$remote 
    scp $RUNDIR/fort.63                                                    $server:$remote 
    scp $RUNDIR/fort.14                                                    $server:$remote 
    scp $RUNDIR/fort.74                                                    $server:$remote
    scp $RUNDIR/swan_HS.63                                                 $server:$remote
    scp $RUNDIR/swan_DIR.63                                                $server:$remote 
 else
-   scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-ele-wind.inp            $server:$remote
-   scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-hs-dir.inp              $server:$remote 
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-ele-wind.tmp            $RUNDIR/irl-ele-wind.inp 2>> $JPGLOGFILE
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-hs-dir.tmp              $RUNDIR/irl-hs-dir.inp   2>> $JPGLOGFILE
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year_hires}/g"     $RUNDIR/irl-ele-wind.inp
+   sed -i "s/%MONTH%/${month_hires}/g"   $RUNDIR/irl-ele-wind.inp
+   sed -i "s/%DAY%/${day_hires}/g"       $RUNDIR/irl-ele-wind.inp
+   sed -i "s/%HOUR%/${hour_hires}/g"     $RUNDIR/irl-ele-wind.inp
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year_hires}/g"     $RUNDIR/irl-hs-dir.inp
+   sed -i "s/%MONTH%/${month_hires}/g"   $RUNDIR/irl-hs-dir.inp
+   sed -i "s/%DAY%/${day_hires}/g"       $RUNDIR/irl-hs-dir.inp
+   sed -i "s/%HOUR%/${hour_hires}/g"     $RUNDIR/irl-hs-dir.inp
+   scp $RUNDIR/irl-ele-wind.inp                                           $server:$remote
+   scp $RUNDIR/irl-hs-dir.inp                                             $server:$remote 
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/Elev_MS.pal                 $server:$remote 
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/HS.pal                      $server:$remote 
    scp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-background.txt          $server:$remote 

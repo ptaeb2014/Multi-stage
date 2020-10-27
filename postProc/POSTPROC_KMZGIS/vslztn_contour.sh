@@ -27,6 +27,18 @@ date >> $JPGLOGFILE
 if [[ $FIGUREGENEXECUTABLE = "" ]]; then
    FIGUREGENEXECUTABLE=FigureGen.x
 fi
+# Extracting time from config to write to figure gen input files 
+# Large coarse domain
+year=$(echo "${CSDATE}" | cut -c1-4)
+month=$(echo "${CSDATE}" | cut -c5-6)
+day=$(echo "${CSDATE}" | cut -c7-8)
+hour=$(echo "${CSDATE}" | cut -c9-10)
+# High Res domain
+CSDATE_hires=`date '+%Y%m%d' -d "$(echo ${CSDATE} | cut -c1-8)+${HINDCASTLENGTH} days"`
+year_hires=$(echo "${CSDATE_hires}" | cut -c1-4)
+month_hires=$(echo "${CSDATE_hires}" | cut -c5-6)
+day_hires=$(echo "${CSDATE_hires}" | cut -c7-8)
+hour_hires=$(echo "${CSDATE}" | cut -c9-10)
 # --------------------------------------------------------------------------------------
 #   2D Contour of full domain (excluding bay of Main and Fundy)
 # --------------------------------------------------------------------------------------
@@ -49,17 +61,37 @@ if [[ $stage -eq 1 ]]; then
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/fulldomain_background.txt   $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/fulldomain_background.pgw   $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/fulldomain_background.png   $RUNDIR 2>> $JPGLOGFILE
-   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/full-ele-wind.inp           $RUNDIR 2>> $JPGLOGFILE
-   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/full-hs-dir.inp             $RUNDIR 2>> $JPGLOGFILE
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/full-ele-wind.tmp           $RUNDIR/full-ele-wind.inp 2>> $JPGLOGFILE
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/full-hs-dir.tmp             $RUNDIR/full-hs-dir.inp   2>> $JPGLOGFILE
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year}/g"     $RUNDIR/full-ele-wind.inp
+   sed -i "s/%MONTH%/${month}/g"   $RUNDIR/full-ele-wind.inp
+   sed -i "s/%DAY%/${day}/g"       $RUNDIR/full-ele-wind.inp
+   sed -i "s/%HOUR%/${hour}/g"     $RUNDIR/full-ele-wind.inp
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year}/g"     $RUNDIR/full-hs-dir.inp
+   sed -i "s/%MONTH%/${month}/g"   $RUNDIR/full-hs-dir.inp
+   sed -i "s/%DAY%/${day}/g"       $RUNDIR/full-hs-dir.inp
+   sed -i "s/%HOUR%/${hour}/g"     $RUNDIR/full-hs-dir.inp
 else
-   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-ele-wind.inp            $RUNDIR 2>> $JPGLOGFILE
-   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-hs-dir.inp              $RUNDIR 2>> $JPGLOGFILE
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-ele-wind.tmp            $RUNDIR/irl-ele-wind.inp 2>> $JPGLOGFILE
+   cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-hs-dir.tmp              $RUNDIR/irl-hs-dir.inp   2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/Elev_MS.pal                 $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/HS.pal                      $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-background.txt          $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-background.pgw          $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-background.png          $RUNDIR 2>> $JPGLOGFILE
    cp $OUTPUTDIR/POSTPROC_KMZGIS/FigGen/GIFs/irl-labels.txt              $RUNDIR 2>> $JPGLOGFILE
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year_hires}/g"     $RUNDIR/irl-ele-wind.inp
+   sed -i "s/%MONTH%/${month_hires}/g"   $RUNDIR/irl-ele-wind.inp
+   sed -i "s/%DAY%/${day_hires}/g"       $RUNDIR/irl-ele-wind.inp
+   sed -i "s/%HOUR%/${hour_hires}/g"     $RUNDIR/irl-ele-wind.inp
+   # writing date/time into input files
+   sed -i "s/%YEAR%/${year_hires}/g"     $RUNDIR/irl-hs-dir.inp
+   sed -i "s/%MONTH%/${month_hires}/g"   $RUNDIR/irl-hs-dir.inp
+   sed -i "s/%DAY%/${day_hires}/g"       $RUNDIR/irl-hs-dir.inp
+   sed -i "s/%HOUR%/${hour_hires}/g"     $RUNDIR/irl-hs-dir.inp
 fi
 
 # Redirect to run directory
