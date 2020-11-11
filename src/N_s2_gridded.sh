@@ -132,9 +132,9 @@ if [[ ! -z $s2_ndlattr && $s2_ndlattr != null ]]; then
 
    # Writing SSHAG to fort.13
    cd $RUNDIR/
-   empty_check=`wc -l SSHAG | cut -d' ' -f1`
-   if [ "${empty_check}" == "0" ]; then
-      cp $mainDIR$ID/$lastDIR/nowcast/S1/SSHAG .
+   empty_check=`cat SSHAG`
+   if [ -z "${empty_check}" ]; then
+      cp $mainDIR$ID/$lastDIR/nowcast/S2/SSHAG .
       sshagVar=`cat SSHAG`
       logMessage "For $ENSTORM, stage 2, sea surface height above geoid was not extracted from NOAA station $site but from previous run $lastDIR and it value is $sshagVar"
    else
