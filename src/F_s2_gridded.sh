@@ -83,6 +83,7 @@ forecastDIR=$mainDIR$ID/$cycleDIR/$member/S1      # of stage one
 mkdir $mainDIR$ID/$cycleDIR/$member/S2
 RUNDIR=$mainDIR$ID/$cycleDIR/$member/S2
 nddlAttribute="off"
+lastDIR=`cat $workingDIR/currentCycle`
 
 # Creating some blank space in the lof file for readability
 echo ""  >> ${SYSLOG} 2>&1

@@ -116,6 +116,7 @@ hindcastDIR=${mainDIR}${ID}/hindcast
 mkdir ${mainDIR}${ID}/$cycleDIR/$member
 mkdir ${mainDIR}${ID}/$cycleDIR/$member/S1
 RUNDIR=${mainDIR}${ID}/$cycleDIR/$member/S1
+lastDIR=`cat $workingDIR/currentCycle`
 
 # Creating some blank space in the lof file for readability
 echo ""  >> ${SYSLOG} 2>&1
