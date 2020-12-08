@@ -33,7 +33,6 @@ workingDIR=$mainDIR$ID
 cycleDIR=`cat $mainDIR$ID/currentCycle`
 nowcastDIR=$mainDIR$ID/$cycleDIR/nowcast/S1
 forecastDIR=$mainDIR$ID/$cycleDIR/$member/S1
-lastDIR=`cat $workingDIR/currentCycle`
 
 # Subrouting to generate boundary condition (fort.19)
 prepBC()
@@ -73,15 +72,7 @@ logMessage "Boundary condition to force HRLA from forecast is being created"
 mv $forecastDIR/fort.14 $forecastDIR/fort.14_parent
 ln -s ${s2_INPDIR}/${s2_grd}        $forecastDIR/fort.14
 
-empty_check=`cat $mainDIR/utility/SSHAG/SSHAG`
-if [ -z "${empty_check}" ]; then
-   if [ $cycle -gt 1 ]; then
-      cp $mainDIR$ID/$lastDIR/nowcast/S1/SSHAG $mainDIR/utility/SSHAG/SSHAG
-   else
-      echo -0.2 > $mainDIR/utility/SSHAG/SSHAG
-fi
 prepBC $BCFREQ fort.61 $forecastDIR  $mainDIR/utility/SSHAG/SSHAG
-
 mv $forecastDIR/fort.14 $forecastDIR/fort.14_child
 
 # cat fort.19_1 and fort.19_2 together, forecast run hotstarts from nowcast 
