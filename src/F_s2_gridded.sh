@@ -118,17 +118,9 @@ if [[ ! -z $s2_ndlattr && $s2_ndlattr != null ]]; then
 
    # Writing SSHAG to fort.13
    cd $RUNDIR/
-   empty_check=`cat SSHAG`
-   if [ -z "${empty_check}" ]; then
-      cp $mainDIR$ID/$lastDIR/nowcast/S2/SSHAG .
-      sshagVar=`cat SSHAG`
-      logMessage "For $ENSTORM, stage 1, sea surface height above geoid was not extracted from NOAA station $site but from previous run $lastDIR and it value is $sshagVar"
-   else
-      sshagVar=`cat SSHAG`
-      logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
-   fi
+   sshagVar=`cat SSHAG`
+   logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
    sed -i "s/%SSHAG%/${sshagVar}/g" fort.13
-   logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site nad is $sshagVar"
    cd -
 
 fi

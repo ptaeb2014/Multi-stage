@@ -122,7 +122,8 @@ ENSTORM="nowcast"
 
 # Linking hotstart files
 if [ $cycle -eq 1 ]; then
-   HSTIME=`$EXEDIR/hstime -f  $hindcastDIR/PE0000/fort.67` 
+   HSTIME=`$EXEDIR/hstime -f  $hindcastDIR/PE0000/fort.67`
+   logMessage "Stage 1 -- Gridded Met., Nowcast, Member $member, the hoststart time is $HSTIME of the Hindcast" 
 else
    lastDIR=`cat $workingDIR/currentCycle`
    if [ -e $mainDIR$ID/$lastDIR/nowcast/S1/PE0000/fort.67 ]; then
@@ -218,18 +219,9 @@ if [[ ! -z $s1_ndlattr && $s1_ndlattr != null ]]; then
 
    # Writing SSHAG to fort.13
    cd $RUNDIR/
-   
-   empty_check=`cat SSHAG`
-   if [ -z "${empty_check}" ]; then
-      cp $mainDIR$ID/$lastDIR/nowcast/S1/SSHAG .
-      sshagVar=`cat SSHAG`
-      logMessage "For $ENSTORM, stage 1, sea surface height above geoid was not extracted from NOAA station $site but from previous run $lastDIR and it value is $sshagVar"
-   else
-      sshagVar=`cat SSHAG`
-      logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
-   fi
+   sshagVar=`cat SSHAG`
+   logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site and its value is $sshagVar"
    sed -i "s/%SSHAG%/${sshagVar}/g" fort.13
-   logMessage "For $ENSTORM, stage 1, sea surface height above geoid was extracted from NOAA station $site nad is $sshagVar"
    cd -
 
 fi

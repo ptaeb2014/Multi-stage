@@ -33,6 +33,7 @@ workingDIR=$mainDIR$ID
 cycleDIR=`cat $mainDIR$ID/currentCycle`
 nowcastDIR=$mainDIR$ID/$cycleDIR/nowcast/S1
 forecastDIR=$mainDIR$ID/$cycleDIR/$member/S1
+lastDIR=`cat $workingDIR/currentCycle.old`
 
 # Subrouting to generate boundary condition (fort.19)
 prepBC()
