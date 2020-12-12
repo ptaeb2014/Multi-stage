@@ -16,6 +16,7 @@ echo $site
 today=`date +'%Y%m%d' -d "1 day ago"`
 twodayago=`date +'%Y%m%d' -d "20 days ago"`
 
+rm SSHAG
 touch SSHAG
 empty_check=`cat SSHAG`
 while [ -z "${empty_check}" ]; do
@@ -41,12 +42,13 @@ while [ -z "${empty_check}" ]; do
     sshag=`echo "scale=2; $total / $count" | bc`
 
     # writing to log file
-    today=`date +'%Y-%m-%d'`
+    today=`date +'%Y-%m-%d T%H:%M'`
     echo "$sshag $today" >> log.SSHAG
 
     # For the use of forcast run
     echo $sshag > SSHAG
     empty_check=`cat SSHAG`
+   
 done
 # Cleaning
 rm WL-$site-raw WL-$site-$datum-obs
