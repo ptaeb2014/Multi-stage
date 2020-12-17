@@ -267,7 +267,7 @@ hr {
 </style>
 <body>
 
-<p>3.5-day forecast starting on Wed Dec 16 2020 cycle 06Z<p>
+<p>3.5-day forecast starting on Thu Dec 17 2020 cycle 00Z<p>
 <br>
 
 <p3>Representative animated forecast results</p3>
