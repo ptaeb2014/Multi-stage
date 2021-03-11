@@ -267,7 +267,7 @@ hr {
 </style>
 <body>
 
-<p>3.5-day forecast starting on Wed Mar 10 2021 cycle 18Z<p>
+<p>3.5-day forecast starting on Thu Mar 11 2021 cycle 00Z<p>
 <br>
 
 <p3>Representative animated forecast results</p3>
