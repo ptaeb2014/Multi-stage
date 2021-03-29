@@ -48,7 +48,7 @@ while [ -z "${empty_check}" ]; do
     # For the use of forcast run
     echo $sshag > SSHAG
     empty_check=`cat SSHAG`
-   
+    sleep 10 
 done
 # Cleaning
 rm WL-$site-raw WL-$site-$datum-obs
